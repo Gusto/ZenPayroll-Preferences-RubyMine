@@ -1,4 +1,4 @@
-# Pivotal RubyMine Preferences #
+# ZenPayroll RubyMine Preferences #
 
 Once upon a time, RubyMine shipped with keybindings that made no sense to anyone who had ever used a Mac. Hence, the Pivotal RubyMine preferences were born. It includes:
 
@@ -6,7 +6,7 @@ Once upon a time, RubyMine shipped with keybindings that made no sense to anyone
 * Ruby Code Styles
 * Live Templates (ruby, jasmine)
 
-Today, this project is not only a repository of Pivotal's preferences for RubyMine - it's also a recommended workflow for tracking your team's customizations to RubyMine preferences. 
+ZenPayroll forked these since they're awesome.
 
 ## Installation ##
 
@@ -15,8 +15,8 @@ First, *close RubyMine*.
 Then, run the following commands:
 
 ```sh
-git clone http://github.com/pivotal/Pivotal-Preferences-RubyMine.git
-cd Pivotal-Preferences-RubyMine
+git clone https://github.com/ZenPayroll/ZenPayroll-Preferences-RubyMine.git
+cd ZenPayroll-Preferences-RubyMine
 ./mineprefs install
 ```
 
@@ -36,6 +36,6 @@ If you'd like to uninstall the pivotal preferences and restore your original set
 Then open a terminal and run the following commands:
 
 ```sh
-cd /path/to/your/Pivotal-Preferences-RubyMine
+cd /path/to/your/ZenPayroll-Preferences-RubyMine
 ./mineprefs uninstall
 ```
